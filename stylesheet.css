@@ -1,8 +1,11 @@
 .content
 {
+	position:relative;
+	top:60px;
 	text-align:center;
 	background-color: rgba(100,100,100,1);
 	width: 50%;
+	height:200%;
 	margin:auto;
 	padding: 3px;
 	border-radius:10px;
@@ -10,13 +13,39 @@
 }
 .header
 {
+	position:relative;
+	left:-1%;
 	background-color: rgba(50,50,50,1);
 	width: 101%;
 	margin:auto;
 	padding: 3px;
+	padding-left:5%;
 	color: white;
 }
 body
 {
 	background-color: rgba(100,175,100,1);
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: white;
+  text-decoration: none;
 }
