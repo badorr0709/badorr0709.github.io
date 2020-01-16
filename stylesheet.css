@@ -3,11 +3,18 @@
 	text-align:center;
 	background-color: rgba(100,100,100,1);
 	width: 50%;
-	position:;
+	margin:auto;
+	padding: 3px;
+	border-radius:10px;
+	color: white;
 }
 .header
 {
-	
+	background-color: rgba(50,50,50,1);
+	width: 101%;
+	margin:auto;
+	padding: 3px;
+	color: white;
 }
 body
 {
