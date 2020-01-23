@@ -29,7 +29,7 @@ body
 
 a:link {
   color: white;
-  text-decoration: none;
+  
 }
 
 /* visited link */
@@ -41,11 +41,9 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: white;
-  text-decoration: none;
 }
 
 /* selected link */
 a:active {
   color: white;
-  text-decoration: none;
 }
