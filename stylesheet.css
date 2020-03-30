@@ -1,49 +1,95 @@
+/*************************************************************************************************************
+
+Author: Benjamin Dorr
+Date: 3/30/2020
+Updates:
+	3/30/2020: Changed the layout of all pages and added css that allows for a vertical navigation bar.
+	Also I am working on changing the layout of all the content div for all the main pages.
+
+******************************************************************************************************** */
 .content
 {
 	position:relative;
-	top:60px;
+	left:6%;
 	text-align:center;
 	background-color: rgba(100,100,100,1);
 	width: 50%;
-	height:200%;
+	min-height:500px;
 	margin:auto;
 	padding: 3px;
 	border-radius:10px;
 	color: white;
 }
-.header
-{
-	position:relative;
-	left:-1%;
-	background-color: rgba(50,50,50,1);
-	width: 101%;
-	margin:auto;
-	padding: 3px;
-	padding-left:5%;
-	color: white;
-}
+
 body
 {
 	background-color: rgba(100,175,100,1);
 }
-
-a:link {
+/********************************
+This section is for
+changing how normal links work
+*******************************/
+a:link
+{
   color: white;
   
 }
-
 /* visited link */
-a:visited {
+a:visited
+{
   color: white;
   text-decoration: none;
 }
 
 /* mouse over link */
-a:hover {
+a:hover
+{
   color: white;
 }
 
 /* selected link */
-a:active {
+a:active
+{
   color: white;
+}
+/****************************
+Vertical navigation bar
+****************************/
+#header
+{
+	position:fixed;
+	top:-1%;
+	left:3%;
+	background-color: rgba(50,50,50,1);
+	min-width: 200px;
+	height: 101% ;
+	margin:auto;
+	color: white;
+}
+
+.vertical-menu
+{
+	poistion:relative;
+	top:20%;
+	font-size: 200%;
+
+}
+.vertical-menu a
+{
+	background-color: rgba(50,50,50,1);
+	color: white;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+}
+
+.vertical-menu a:hover
+{
+	background-color: rgba(100,100,100,1);
+}
+
+.vertical-menu a.active
+{
+	background-color: rgba(10,100,50,1);
+	color: white;
 }
