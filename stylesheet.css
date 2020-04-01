@@ -4,22 +4,11 @@ Author: Benjamin Dorr
 Date: 3/30/2020
 Updates:
 	3/30/2020: Changed the layout of all pages and added css that allows for a vertical navigation bar.
-	Also I am working on changing the layout of all the content div for all the main pages.
-
+			Also I am working on changing the layout of all the content div for all the main pages.
+	3/31/2020: Changed and deleted the css that is used for controlling the content section
+	 		of all webpages.
 ******************************************************************************************************** */
-.content
-{
-	position:relative;
-	left:6%;
-	text-align:center;
-	background-color: rgba(100,100,100,1);
-	width: 50%;
-	min-height:500px;
-	margin:auto;
-	padding: 3px;
-	border-radius:10px;
-	color: white;
-}
+
 
 body
 {
